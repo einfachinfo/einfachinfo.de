@@ -27,6 +27,14 @@ div.information {
     margin-right: auto;
 }
 
+#bullet-points li {
+    margin-left: -20px;
+}
+
+#bullet-points ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 .stichpunkt {
     font-weight: bold;
     font-size: 20px;

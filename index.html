@@ -15,33 +15,35 @@
 
 <body>
     <header>
-        <ul id="menu">
-            <li><p href="#" class="menu">Alle Lerninhalte</p>
-                <ul>
-
-                    <li><a href="#">Daten und ihre Strukturierung</a>
-                        <ul>
-                            <li><a href="/daten_und_ihre_strukturierung/linearestrukturen_und_sortierung.html">Lineare Strukturen + Sortierung</a></li>
-                            <li><a href="/daten_und_ihre_strukturierung/nichtlinearestrukturen_und_sortierung.html">Nicht Lineare Strukturen + Sortierung</a></li>
-                            <li><a href="/daten_und_ihre_strukturierung/datenbanken.html">Datenbanken</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="/automaten_und_formalesprachen.html">Automaten + Formale Sprachen</a></li>
-
-                    <li><a href="#">Informatiksysteme</a>
-                        <ul>
-                            <li><a href="/informatiksysteme/von_neumann_architektur.html">Von Neumann Architektur</a></li>
-                            <li><a href="/informatiksysteme/verschluesselung.html">Verschlüsselung</a></li>
-                            <li><a href="/informatiksysteme/netzwerke.html">Netzwerke</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="/mensch_und_gesellschaft.html">Mensch und Gesellschaft</a></li> 
-
-                </ul>
-            </li>
-        </ul>
+        <div id="menu-container">
+            <ul id="menu">
+                <li><p href="#" class="menu">Alle Lerninhalte</p>
+                    <ul id="main-submenu">
+    
+                        <li><a href="#">Daten und ihre Strukturierung</a>
+                            <ul>
+                                <li><a href="/daten_und_ihre_strukturierung/linearestrukturen_und_sortierung.html">Lineare Strukturen + Sortierung</a></li>
+                                <li><a href="/daten_und_ihre_strukturierung/nichtlinearestrukturen_und_sortierung.html">Nicht Lineare Strukturen + Sortierung</a></li>
+                                <li><a href="/daten_und_ihre_strukturierung/datenbanken.html">Datenbanken</a></li>
+                            </ul>
+                        </li>
+    
+                        <li><a href="/automaten_und_formalesprachen.html">Automaten + Formale Sprachen</a></li>
+    
+                        <li><a href="#">Informatiksysteme</a>
+                            <ul>
+                                <li><a href="/informatiksysteme/von_neumann_architektur.html">Von Neumann Architektur</a></li>
+                                <li><a href="/informatiksysteme/verschluesselung.html">Verschlüsselung</a></li>
+                                <li><a href="/informatiksysteme/netzwerke.html">Netzwerke</a></li>
+                            </ul>
+                        </li>
+    
+                        <li><a href="/mensch_und_gesellschaft.html">Mensch und Gesellschaft</a></li> 
+    
+                    </ul>
+                </li>
+            </ul>
+        </div>
         <a href="../index.html" class="pagename">einfachinfo.de</a>
         <button id="toggle">Abitur</button>
     </header>
@@ -122,6 +124,6 @@
     </p>
     </div>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/header.js"></script>
 </body>
 </html>
