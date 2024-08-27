@@ -13,10 +13,7 @@ header {
 
 }
 
-#menu-container #menu p {
-  font-family: "Noto Sans", sans-serif;
 
-}
 
 .pagename {
     font-family: "Noto Sans", sans-serif;
@@ -28,9 +25,19 @@ header {
     transform: translateX(-50%);
 }
 
+#menu-container #menu p {
+  font-family: "Noto Sans", sans-serif;
+
+}
+
 #menu-container ul {
   list-style-type: disc;
   margin-left: 20px;
+}
+.menu-item:after {
+  content: "\1405"; 
+  font-size: 20px;
+  margin-left: 15px; 
 }
 
 
@@ -59,8 +66,8 @@ header {
     display: block;
     width: 100%;
     height: 1px;
-    background-color: #000000; /* Passe die Farbe an */
-    margin-top: 10px; /* Passe den Abstand an */
+    background-color: #000000;
+    margin-top: 10px; 
   }
   
 #menu-container #menu a {
