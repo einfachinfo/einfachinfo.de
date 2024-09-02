@@ -8,7 +8,35 @@
 
     <body>
         <header>
-            <a href="/inhaltsverzeichnis.html" class="inhalt">Alle Lerninhalte</a>
+            <div id="menu-container">
+                <ul id="menu">
+                    <li><p href="#" class="menu">Alle Lerninhalte</p>
+                        <ul id="main-submenu">
+        
+                            <li><a href="#">Daten und ihre Strukturierung</a>
+                                <ul>
+                                    <li><a href="/daten_und_ihre_strukturierung/linearestrukturen_und_sortierung.html">Lineare Strukturen + Sortierung</a></li>
+                                    <li><a href="/daten_und_ihre_strukturierung/nichtlinearestrukturen_und_sortierung.html">Nicht Lineare Strukturen + Sortierung</a></li>
+                                    <li><a href="/daten_und_ihre_strukturierung/datenbanken.html">Datenbanken</a></li>
+                                </ul>
+                            </li>
+        
+                            <li><a href="/automaten_und_formalesprachen.html">Automaten + Formale Sprachen</a></li>
+        
+                            <li><a href="#">Informatiksysteme</a>
+                                <ul>
+                                    <li><a href="/informatiksysteme/von_neumann_architektur.html">Von Neumann Architektur</a></li>
+                                    <li><a href="/informatiksysteme/verschluesselung.html">Verschlüsselung</a></li>
+                                    <li><a href="/informatiksysteme/netzwerke.html">Netzwerke</a></li>
+                                </ul>
+                            </li>
+        
+                            <li><a href="/mensch_und_gesellschaft.html">Mensch und Gesellschaft</a></li> 
+        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
             <a href="../index.html" class="pagename">einfachinfo.de</a>
             <button id="toggle">Abitur</button>
         </header>
@@ -32,9 +60,25 @@
                 <p><span class="stichpunkt">Datensicherheit:</span> Die Datensicherheit ist von zentraler Bedeutung, um deine personenbezogenen Daten vor unbefugtem Zugriff, Verlust, Veränderung oder Zerstörung zu schützen. Unternehmen sind verpflichtet, geeignete technische und organisatorische Maßnahmen zu ergreifen um ein angemessenes Schutzniveau zu gewährleisten.<br>Zu den technischen Maßnahmen gehören beispielsweise sichere Passwärter, Verschlüsselung, Firewalls und Zugriffskontrollen. Organisatorische Maßnahmen umfassen unter anderem Schulungen für Mitarbeiter, regelmäßige Sicherheitsüberprüfung und Notfallpläne.<p>
                 <hr>
                 <h3>Dark Patterns</h3>
-                <p><span class="stichpunkt">Dark Patterns:</span> Dark Patterns sind absichtlich in Benutzeroberflächen eingebaute Design-Elemente, die Nutzer dazu verleiten sollen, bestimmte Handlungen auszuführen, die sie unter normalen Umständen nicht tätigen würden. Diese Techniken nutzen psychologische Prinzipien aus, um Nutzer zu manipulieren und ihre Entscheidungsfreiheit einzuschränken.</p>
+                <p><span class="stichpunkt">Dark Patterns:</span> Dark Patterns sind absichtlich in Benutzeroberflächen eingebaute Design-Elemente, die Nutzer dazu verleiten sollen, bestimmte Handlungen auszuführen, die sie unter normalen Umständen nicht tätigen würden. Diese Techniken nutzen psychologische Prinzipien aus, um Nutzer zu manipulieren und ihre Entscheidungsfreiheit einzuschränken.<br>Dabei gibt es <span style="font-weight: bold;">verschiedene Arten von Dark Patterns:</span></p>
+                <div id="bullet-points">
+                    <ul>
+                        <li><span class="stichpunkt">Sneak into Basket:</span> Unbefugte Warenkorbergänzung: Das Unternehmen legt ohne ausdrückliche Zustimmung des Nutzers ein Produkt in den Warenkorb.</li>
+                        <li><span class="stichpunkt">Misdirection:</span> Irreführende Benutzerführung: Durch gezielte Gestaltungselemente wird der Nutzer dazu verleitet, bestimmte Aktionen auszuführen oder von relevanten Informationen abzusehen.</li>
+                        <li><span class="stichpunkt">Friend Spam:</span> Unerlaubte Nutzung sozialer Kontakte: Unternehmen nutzen die Kontaklisten von Nutzern, um ohne deren ausdrückliche Zustimmung Werbebotschaften an deren Freunde zu versenden. Oft auch werden diese Werbebotschaften mit Punkten oder Prämien geschmückt.</li>
+                        <li><span class="stichpunkt">Roach Motel:</span> Schwierige Vertragskündigung: Die Beendigung von Abonnements wird durch komplizierte oder irreleitende Verfahren erschwert.</li>
+                        <li><span class="stichpunkt">Bait-and-Switch</span> Täuschung durch falsche Versprechungen: Nutzer werden durch irreführende und verlockende Angebote gelockt, um ihnen anschließend ein anderes Angebot anzubieten.</li>
+                        <li><span class="stichpunkt">Loot Boxen</span> Glücksspielähnliche Mechanismen in Spielen: Der Erwerb virtueller Gegestände erfolgt zufällig und ist oft mit hohen Kosten verbunden.</li>
+                        <li><span class="stichpunkt">Abo-Fallen:</span> Unerwartete Kostenfallen: Nutzer werden für bestimmte Funktionen automatisch in kostenpflichtige Abonnemente eingeschrieben ohne das sie dies bemerkt haben.</li>
+                        <li><span class="stichpunkt">FOMO-Marketing:</span> Künstlich erzeugte Knappheit: Durch zeitlich begrenzte Angebote wird ein Gefühl der Dringlichkeit erzeugt und erregt User dazu impulsive Käufe zu tätigen.</li>
+                        <li><span class="stichpunkt">Confirmation Bias:</span> Bestätigungsfragen, die die Entscheidungsfreiheit einschränken.</li>
+                        <li><span class="stichpunkt">Social Proof:</span> Gefälschte oder übertriebene soziale Bewertung um den User zu manipulieren und zu überzeugen.</li>
+                      <ul>
+                </div>
             </div>
         </div>
+
+        <script src="../js/header.js"></script>
     </body>
 
     <footer>

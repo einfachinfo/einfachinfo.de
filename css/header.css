@@ -1,4 +1,6 @@
 header {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 40px;
     position: fixed; z-index: 1000;
     width: 100%;
     height: 80px;
@@ -8,59 +10,81 @@ header {
 
     justify-content: center; 
     border-bottom: 1px solid black;
-    font-size: 32px;
+
 }
+
+
 
 .pagename {
     font-family: "Noto Sans", sans-serif;
     color: black;
     text-decoration: none;
-    font-size: 40px;
+
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
+#menu-container #menu p {
+  font-family: "Noto Sans", sans-serif;
+
+}
+
+#menu-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.menu-item:after {
+  content: "\1405"; 
+  font-size: 20px;
+  margin-left: 15px; 
+}
 
 
-#menu {
+#menu-container #menu {
+
     position: absolute;
-    font-size: 40px;
+
     top: 50%;
     left: 50px;
-    transform: translate(0px, -45%);
+    transform: translate(0px, -50%);
     list-style: none;
     padding: 0;
     margin: 0;
   }
+
+#menu-container#menu-container .menu {
+  cursor: pointer;
+}
   
-  #menu li {
+#menu-container #menu li {
     position: relative;
   }
 
-  #menu li:not(:last-child)::after {
+#menu-container  #menu li:not(:last-child)::after {
     content: "";
     display: block;
     width: 100%;
     height: 1px;
-    background-color: #000000; /* Passe die Farbe an */
-    margin-top: 10px; /* Passe den Abstand an */
+    background-color: #000000;
+    margin-top: 10px; 
   }
   
-  #menu a {
+#menu-container #menu a {
     display: block;
     font-size: 30px;
     padding: 0px 0px;
     text-decoration: none;
+    cursor: pointer
   }
 
 
 
-  #menu a:hover {
+#menu-container #menu a:hover {
     font-weight: bold;
   }
   
-  #menu ul {
+#menu-container #menu ul {
     width: 500px;
     transition: opacity 0.3s ease-in-out;
     position: absolute;
@@ -71,17 +95,17 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
-  #menu li:hover > ul {
+#menu-container #menu li.active > ul {
     display: block;
   }
 
   
-  #menu ul li {
+#menu-container  #menu ul li {
     position: relative;
   }
   
-  #menu ul ul {
-    width: 400px;
+#menu-container #menu ul ul {
+    width: 500px;
     background-color: #AADDEC;
     left: 98%;
     top: 0;
