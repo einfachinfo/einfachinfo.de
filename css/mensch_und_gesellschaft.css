@@ -44,3 +44,9 @@ div.information {
 .verknuepfung {
     color: black;
 }
+
+p.urheberrecht {
+    margin-top: auto;
+    text-align: center;
+    opacity: 0.7;
+}
