@@ -1,15 +1,15 @@
-const button = document.getElementById('toggle');
+function classToggle() {
+  const button = document.getElementById('toggle');
+  this.classList.toggle('abitur');
+  this.classList.toggle('studium');
 
-button.addEventListener('click', () => {
-  if (button.textContent === 'Abitur') {
-    console.log("test");
+  if (button.className === 'studium') {
     button.textContent = 'Studium';
   } else {
     button.textContent = 'Abitur';
   }
-});
-
-
+};
+document.querySelector('#toggle').addEventListener('click', classToggle);
 
 // Wähle alle Menüelemente, die ein Untermenü haben
 const menuItems = document.querySelectorAll('#menu-container #menu > li');
