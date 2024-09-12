@@ -51,11 +51,32 @@
                 <p>Die von-Neumann-Architektur, benannt nach dem Mathematiker John von Neumann, ist ein grundlegendes Konzept für die Struktur und Funktionsweise von Computern. Sie bildet die Grundlage für die meisten heute verwendeten Computer und beschreibt, wie ein Cimputer Daten verarbeitet und Befehle ausführt.</p>
                 <hr>
                 <h3>Von Neumann Architektur</h3>
+                <p>Die von-Neumann-Architektur hat die Art und Weise, wie wir mit Computern umgehen, revolutioniert.<br>Indem sie die Trennung von Hardware und Software ermöglichte, legte sie den Grundstein für die Flexibilität und Vielseitigkeit moderner Computer.</p>
+                <p>Im Modell Neumanns Kommunizieren <span style="color: cornflowerblue; font-weight: bold;">fünf Teilelemente über einen <span onclick="openPopup()" class="hover-tooltips"
+                    title="Der Systembus ist wie eine Art Autobahn, auf der die Daten zwischen den Verschiedenen Komponenten eines Computers hin und her transportiert werden.&#10Klicke für mehr">Systembus</span>
+                </span> miteinander:</p>
                 <hr>
                 <h3>Von Neumann Prinzipien</h3>
             </div>
         </div>
+
+        <div id="popupContainer">
+            <div id="overlay" class="hidden"></div>
+            <div id="popupDialog" class="hidden">
+                <p class="popup"><span class="stichpunkt-popup">Mehrere Leitungen:</span> Der Bus besteht aus mehreren einzelnen Leitungen, die jeweils einem Zweck dienen.</p>
+                <p class="popup"><span class="stichpunkt-popup">Datenbus:</span>Überträgt die eigentlichen Daten, also die Informationen die verarbeitet werden sollen.</p>
+                <p class="popup"><span class="stichpunkt-popup">Adressbus:</span>Bestimmt, an welcher Speicheradresse Daten gelesen oder geschrieben werden sollen.</p>
+                <p class="popup"><span class="stichpunkt-popup">Steuerbus:</span>Überträgt Steuersignale, die den Datenverkehr koordinieren.</p>        
+                <button onclick="openPopup()">
+                    Close
+                </button>
+            </div>
+        </div>
+
+        
+                    
         <p class="urheberrecht">Alle Inhalte sind nach § 2 Absatz 1 Nr. 1 UrhG urheberrechtlich geschützt</p>
+        <script src="../js/von_neumann_architektur.js"></script>
     </body>
     <footer>
         <div class="social">
