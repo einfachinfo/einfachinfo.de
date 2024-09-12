@@ -11,9 +11,12 @@ function openPopup() {
     popDialog.classList.toggle(
         "hidden"
     );
+    popDialog.classList.toggle("visible")
     popDialog.style.opacity =
         popDialog.style.opacity ===
             "1"
             ? "0"
             : "1";
-}
+    
+
+};

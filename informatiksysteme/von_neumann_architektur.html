@@ -52,29 +52,40 @@
                 <hr>
                 <h3>Von Neumann Architektur</h3>
                 <p>Die von-Neumann-Architektur hat die Art und Weise, wie wir mit Computern umgehen, revolutioniert.<br>Indem sie die Trennung von Hardware und Software ermöglichte, legte sie den Grundstein für die Flexibilität und Vielseitigkeit moderner Computer.</p>
-                <p>Im Modell Neumanns Kommunizieren <span style="color: cornflowerblue; font-weight: bold;">fünf Teilelemente über einen <span onclick="openPopup()" class="hover-tooltips"
+                <p>Im Modell Neumanns Kommunizieren <span style="color: cornflowerblue; font-weight: bold; font-size: 20px;">fünf Teilelemente über einen <span onclick="openPopup()" class="hover-tooltips"
                     title="Der Systembus ist wie eine Art Autobahn, auf der die Daten zwischen den Verschiedenen Komponenten eines Computers hin und her transportiert werden.&#10Klicke für mehr">Systembus</span>
                 </span> miteinander:</p>
+                <div id="popupContainer">
+                    <div id="overlay" class="hidden"></div>
+                    <div id="popupDialog" class="hidden">
+                        <p class="popup"><span class="stichpunkt-popup">Mehrere Leitungen:</span> Der Bus besteht aus mehreren einzelnen Leitungen, die jeweils einem Zweck dienen.</p>
+                        <p class="popup"><span class="stichpunkt-popup">Datenbus:</span>Überträgt die eigentlichen Daten, also die Informationen die verarbeitet werden sollen.</p>
+                        <p class="popup"><span class="stichpunkt-popup">Adressbus:</span>Bestimmt, an welcher Speicheradresse Daten gelesen oder geschrieben werden sollen.</p>
+                        <p class="popup"><span class="stichpunkt-popup">Steuerbus:</span>Überträgt Steuersignale, die den Datenverkehr koordinieren.</p>        
+                        <button onclick="openPopup()">
+                            Close
+                        </button>
+                    </div>
+                </div>
+                <div id="bullet-points">
+                    <ul>
+                        <li><span class="stichpunkt">Sneak into Basket:</span> Unbefugte Warenkorbergänzung: Das Unternehmen legt ohne ausdrückliche Zustimmung des Nutzers ein Produkt in den Warenkorb.</li>
+                        <li><span class="stichpunkt">Misdirection:</span> Irreführende Benutzerführung: Durch gezielte Gestaltungselemente wird der Nutzer dazu verleitet, bestimmte Aktionen auszuführen oder von relevanten Informationen abzusehen.</li>
+                        <li><span class="stichpunkt">Friend Spam:</span> Unerlaubte Nutzung sozialer Kontakte: Unternehmen nutzen die Kontaklisten von Nutzern, um ohne deren ausdrückliche Zustimmung Werbebotschaften an deren Freunde zu versenden. Oft auch werden diese Werbebotschaften mit Punkten oder Prämien geschmückt.</li>
+                        <li><span class="stichpunkt">Roach Motel:</span> Schwierige Vertragskündigung: Die Beendigung von Abonnements wird durch komplizierte oder irreleitende Verfahren erschwert.</li>
+                        <li><span class="stichpunkt">Bait-and-Switch</span> Täuschung durch falsche Versprechungen: Nutzer werden durch irreführende und verlockende Angebote gelockt, um ihnen anschließend ein anderes Angebot anzubieten.</li>
+                        <li><span class="stichpunkt">Loot Boxen</span> Glücksspielähnliche Mechanismen in Spielen: Der Erwerb virtueller Gegestände erfolgt zufällig und ist oft mit hohen Kosten verbunden.</li>
+                        <li><span class="stichpunkt">Abo-Fallen:</span> Unerwartete Kostenfallen: Nutzer werden für bestimmte Funktionen automatisch in kostenpflichtige Abonnemente eingeschrieben ohne das sie dies bemerkt haben.</li>
+                        <li><span class="stichpunkt">FOMO-Marketing:</span> Künstlich erzeugte Knappheit: Durch zeitlich begrenzte Angebote wird ein Gefühl der Dringlichkeit erzeugt und erregt User dazu impulsive Käufe zu tätigen.</li>
+                        <li><span class="stichpunkt">Confirmation Bias:</span> Bestätigungsfragen, die die Entscheidungsfreiheit einschränken.</li>
+                        <li><span class="stichpunkt">Social Proof:</span> Gefälschte oder übertriebene soziale Bewertung um den User zu manipulieren und zu überzeugen.</li>
+                      <ul>
+                </div>
                 <hr>
                 <h3>Von Neumann Prinzipien</h3>
             </div>
         </div>
-
-        <div id="popupContainer">
-            <div id="overlay" class="hidden"></div>
-            <div id="popupDialog" class="hidden">
-                <p class="popup"><span class="stichpunkt-popup">Mehrere Leitungen:</span> Der Bus besteht aus mehreren einzelnen Leitungen, die jeweils einem Zweck dienen.</p>
-                <p class="popup"><span class="stichpunkt-popup">Datenbus:</span>Überträgt die eigentlichen Daten, also die Informationen die verarbeitet werden sollen.</p>
-                <p class="popup"><span class="stichpunkt-popup">Adressbus:</span>Bestimmt, an welcher Speicheradresse Daten gelesen oder geschrieben werden sollen.</p>
-                <p class="popup"><span class="stichpunkt-popup">Steuerbus:</span>Überträgt Steuersignale, die den Datenverkehr koordinieren.</p>        
-                <button onclick="openPopup()">
-                    Close
-                </button>
-            </div>
-        </div>
-
-        
-                    
+            
         <p class="urheberrecht">Alle Inhalte sind nach § 2 Absatz 1 Nr. 1 UrhG urheberrechtlich geschützt</p>
         <script src="../js/von_neumann_architektur.js"></script>
     </body>
