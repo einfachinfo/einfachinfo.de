@@ -129,3 +129,27 @@ button:hover {
 #bullet-points ul li:not(:last-child) {
     margin-bottom: 10px;
 }
+
+.eva-prinzip {
+    margin-top: 50px;
+}
+
+.eva-prinzip .img-copyright {
+    text-align: right;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.img-copyright a {
+    color: #aaa;
+}
+
+.img-copyright a:hover {
+    color: #000;
+    transition: 0.5s;
+}
+
+#zusammenfassung {
+    margin-top: 20px;
+}
