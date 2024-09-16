@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    background: #F1F1F1;
+    margin: 0;
+    min-height: 100vh;
+}
+
+div.mainpage {
+    margin: 20px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+div.information {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.urheberrecht {
+    text-align: center;
+    margin-top: auto;
+    opacity: 0.7;
+}
+
+.stichpunkt {
+    font-weight: bold;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+#bullet-points li {
+    margin-left: -20px;
+}
+
+#bullet-points ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-copyright {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.img-copyright a {
+    color: #aaa;
+}
+
+.img-copyright a:hover {
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
+}
+
+.array h3 {
+    margin: 0px;
+}
+
+.array p {
+    margin-top: 10px;
+}
+
+.list h3 {
+    margin: 0px;
+}
+
+.list p {
+    margin-top: 10px;
+}
+
+.queue h3 {
+    margin: 0px;
+}
+
+.queue p {
+    margin-top: 10px;
+}
+
+.stack h3 {
+    margin: 0px;
+}
+
+.stack p {
+    margin-top: 10px;
+}

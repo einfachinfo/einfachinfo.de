@@ -2,15 +2,116 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="linearestrukturen_und_sortierung.css">
+        <link rel="stylesheet" href="/css/linearestrukturen_und_sortierung.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <!-- Icons for different sections -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-        <p>Lineare Datenstrukturen und Sortierung</p>
+        <header>
+            <div id="menu-container">
+                <ul id="menu">
+                    <li><p href="#" class="menu">Alle Lerninhalte</p>
+                        <ul>
+        
+                            <li><a class="menu-item" href="#">Daten und ihre Strukturierung</a>
+                                <ul class="subsubmenu">
+                                    <li><a href="/daten_und_ihre_strukturierung/linearestrukturen_und_sortierung.html">Lineare Strukturen + Sortierung</a></li>
+                                    <li><a href="/daten_und_ihre_strukturierung/nichtlinearestrukturen_und_sortierung.html">Nicht Lineare Strukturen + Sortierung</a></li>
+                                    <li><a href="/daten_und_ihre_strukturierung/datenbanken.html">Datenbanken</a></li>
+                                </ul>
+                            </li>
+        
+                            <li><a href="/automaten_und_formalesprachen.html">Automaten + Formale Sprachen</a></li>
+        
+                            <li><a class="menu-item" href="#">Informatiksysteme</a>
+                                <ul class="subsubmenu">
+                                    <li><a href="/informatiksysteme/von_neumann_architektur.html">Von Neumann Architektur</a></li>
+                                    <li><a href="/informatiksysteme/verschluesselung.html">Verschlüsselung</a></li>
+                                    <li><a href="/informatiksysteme/netzwerke.html">Netzwerke</a></li>
+                                </ul>
+                            </li>
+        
+                            <li><a href="/mensch_und_gesellschaft.html">Mensch und Gesellschaft</a></li> 
+        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <a href="../index.html" class="pagename">einfachinfo.de</a>
+            <button id="toggle" class="abitur">Abitur</button>
+        </header>
 
+        <div class="mainpage">
+            <h1>Lineare Strukturen und Sortierung</h1>
+
+            <div class="information">
+                <p><span class="stichpunkt">Datenstrukturen:</span> Datenstrukturen sind in der informatik konzipierte Werkzeuge, die zur <span style="font-weight: bold;">Organisation, Speicherung und Verwaltung von Daten</span> dienen. Stellen dir vor, du hast eine große Sammlung von Büchern. Um diese Bücher schnell zu finden, könntest du sie alphabetisch sortieren und nach Themen in die Regale einteilen.<br>Datenstrukturen in der Informatik erfüllen eine ähnliche Funktion, jedoch für digitale Daten in Computern.</p>
+                <p><span class="stichpunkt">Statische Datenstrukturen:</span> Die Speichergröße wird bei der Erstellung festgelegt und kann während der Ausführung des Programms nicht verändert werden. Dadurch ist es <span style="font-weight: bold;">Statisch.</span><br>
+                <span class="stichpunkt">Beispiele: </span><a href="#arrays" style="color: black;">Arrays</a>, Strukturen.</p>
+                <p><span class="stichpunkt">Dynamische Datenstrukturen:</span> Während der Ausführung des Programms kann die Speichergröße <span style="font-weight: bold;">dynamisch</span> angepasst werden.<br>
+                <span class="stichpunkt">Beispiele: </span><a href="#verkettete-liste" style="color: black;">Verkettete Listen</a>, <a href="#bäume" style="color: black;">Bäume</a>, <a href="#graphen" style="color: black;">Graphen.</a></p>
+
+                <hr>
+
+                <div class="array" id="arrays">
+                    <h3>Array</h3>
+                    <p>(Statisch): Ein Array ist eine geordnete Sammlung von Elementen desselben Datentyps, die unter einem gemeinsamen Namen zusammengefasst werden. Jedes Element in einem Array wird durch einen eindeutigen Index angesprochen, der seine Position im Array angibt. Die Größe eines Arrays ist fest definiert und kann nach der Erstellung nicht mehr verändert werden. Arrays können ein- oder mehrdimensional sein.</p>
+                </div>
+
+                <hr>
+
+                <div class="list" id="verkettete-liste">
+                    <h3>Einfach verkettete Liste</h3>
+                    <p>(Dynamisch)</p>
+                    <p><span class="stichpunkt">Operationen:</span></p>
+                    <div class="bullet-points">
+                        <ul>
+                            <li><span class="stichpunkt">Einfügen (Anfang, Ende, Beliebig):</span></li>
+                            <li><span class="stichpunkt">Löschen (Anfang, Ende, Beliebig):</span></li>
+                            <li><span class="stichpunkt">Suchen:</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="queue">
+                    <h3>Queue</h3>
+                    <p>(Statisch, FIFO = First in First out):</p>
+                </div>
+
+                <hr>
+
+                <div class="stack">
+                    <h3>Stack</h3>
+                    <p>(Statisch, LIFO = Last in First out)</p>
+                </div>
+
+                <hr>
+            </div>
+        </div>
+
+        <p class="urheberrecht">Alle Inhalte sind nach § 2 Absatz 1 Nr. 1 UrhG urheberrechtlich geschützt</p>
     </body>
 
     <footer>
-        
+        <div class="social">
+            <a href="https://github.com/einfachinfo" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.youtube.com/@einfachinfo-de" target="_blank"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/einfachinfo.de/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+    
+        <ul class="footer-list">
+            <li><a href="#" target="_blank">Kontakt</a></li>
+            <li><a href="#" target="_blank">Impressum</a></li>
+            <li><a href="#" target="_blank">Filler</a></li>
+            <li><a href="#" target="_blank">Filler</a></li>
+        </ul>
+        <p class="copyright"><a href="https://github.com/einfachinfo" target="_blank">einfachinfo.de @ 2024</a></p>
+        <p class="creator">created by <a href="https://github.com/thisisjsimon" target="_blank">Jonah</a> and <a href="https://github.com/LemonElias" target="_blank">Elias</a></p>
     </footer>
 </html>
