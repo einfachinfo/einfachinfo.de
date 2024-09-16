@@ -102,3 +102,23 @@ img {
 .stack p {
     margin-top: 10px;
 }
+
+.code {
+    color: #aaa;
+    opacity: 0.8;
+}
+
+.code a {
+    color: #aaa;
+    opacity: 0.8;
+}
+
+.code #code_creator {
+    text-decoration: none;
+}
+
+.code a:hover {
+    color: black;
+    opacity: 1;
+    transition: 0.5s;
+}
