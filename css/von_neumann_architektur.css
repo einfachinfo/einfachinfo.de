@@ -134,7 +134,8 @@ button:hover {
     margin-top: 50px;
 }
 
-.eva-prinzip .img-copyright {
+.img-copyright {
+    display: block;
     text-align: right;
     margin-top: 5px;
     font-size: 13px;
@@ -146,10 +147,16 @@ button:hover {
 }
 
 .img-copyright a:hover {
+    cursor: pointer;
     color: #000;
     transition: 0.5s;
 }
 
 #zusammenfassung {
     margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }

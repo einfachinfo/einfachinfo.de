@@ -107,6 +107,27 @@
                 <p id="zusammenfassung"><span class="stichpunkt">Zusammenfassung:</span> Die von-Neumann-Architektur ist ein grundlegendes Konzept, das die Funktionsweise der meisten Computer bestimmt. Obwohl sie viele Vorteile bietet, hat sie auch ihre Grenzen. Der von-Neumann-Flaschenhals ist ein solcher Engpass, der die Leistung von Computern einschränken kann. Durch innovative Lösungen wie Caches und Mehrkernprozessoren wird jedoch kontinuierlich daran gearbeitet, die Leistung zu steigern und die Einschränkungen der von-Neumann-Architektur zu überwinden.</p>
                 <hr>
                 <h3>Von Neumann Prinzipien</h3>
+                <div class="bullet-points">
+                    <ul>
+                        <li><span class="stichpunkt">Speicherprogrammierbarkeit:</span> Das Herzstück dieser Architektur ist die Idee, dass sowohl Daten als auch Programme im gleichen Speicher abgelegt werden. Dies ermöglicht es, Programme flexibel zu ändern und azupassen, ohne die Hardware verändern zu müssen.</li>
+                        <li><span class="stichpunkt">Adressierbarer Speicher:</span> Der Speicher ist in gleich große Zellen unterteilt, die über eine eindeutige Adresse angesprochen werden können. Dadurch kann der Prozessor auf jede beliebige Stelle im Speicher zugreifen, um Daten zu lesen oder zu schreiben.</li>
+                        <li><span class="stichpunkt">Binäre Codierung:</span> Alle Informationen, sei es Daten, Befehle oder Adressen, werden in binärer Form (also als Folge von Nullen und Einsen) dargestellt. Dies ist die natürliche Sprache von Computern.</li>
+                        <li><span class="stichpunkt">Sequenzielle Ausführung:</span> Programme werden in der Regel von oben nach unten abgearbeitet. Der Prozessor führt die Befehle nacheinander aus und erhöht dabei einen internen Zähler, um den nächsten Befehl zu bestimmen.</li>
+                        <li><span class="stichpunkte">Befehlzusammensetzung:</span> Jeder Befehl setzt sich aus zwei Hauptteilen zusammen: Dem Opcode (Operationscode) und dem Adressteil. Der Opcode spezifiziert die auszuführende Operation (z.B Addition, Subtraktion, Sprung), während der Adressteil auf die Daten im Speicher verweist, die für die Operation benötigt werden.</li>
+                        <li><span class="stichpunkt">Sprungbefehle:</span> Mit Sprungbefehlen kann die sequenzielle Ausführung unterbrochen werden und der Prozessor kann an eine beliebige Stelle im Programm springen. Dies ermöglicht die Implementierung von Kontrollstrukturen wie Schleifen und Verzweigungen.</li>
+                    </ul>
+                </div>
+                <br>
+                <h3>Der von-Neumann-Zyklus</h3>
+                <p>Die Verarbeitung in einem von-Neumann-Rechner erfolgt in einem kontinuierlichen Zyklus, der als von-Neumann-Zyklus bezeichnet wird. <br>Dieser Zyklus besteht aus folgenden Phasen:</p>
+                <ul>
+                    <li><span class="stichpunkt">Holen (Fetch):</span> Der Prozessor holt den nächsten auszuführenden Befehl aus dem Speicher.</li>
+                    <li><span class="stichpunkt">Decodieren (Decode):</span> Der Befehl wird decodiert, um den Opcode und den Adressteil zu bestimmen.</li>
+                    <li><span class="stichpunkt">Ausführen (Execute):</span> Der Prozessor führt die im Opcode spezifizierte Operation aus. Dabei werden die benötigten Daten aus dem Speicher geholt, die Operation ausgeführt und das Ergebnis gegebenenfalls wieder im Speicher abgelegt.</li>
+                    <li><span class="stichpunkt">Speichern (Write back):</span> Das Ergebnis der Operation wird im Speicher abgelegt (falls erforderlich)</li>
+                </ul>
+                <img src="../images/von-Neumann-Zyklus.png">
+                <span class="img-copyright" style="margin-right: 200px;">Von <a scr="http://mathe-mit-methode.com/schlaufuchs_web/elektrotechnik/computer_lernmaterial/computer_grundlagen/cpu_aufbau/cpu_befehlszyklen.html">Mathe mit Methode</a></span>
             </div>
         </div>
             
@@ -116,8 +137,8 @@
     <footer>
         <div class="social">
             <a href="https://github.com/einfachinfo" target="_blank"><i class="fa fa-github"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@einfachinfo-de" target="_blank"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/einfachinfo.de/" target="_blank"><i class="fa fa-instagram"></i></a>
             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
         </div>
     
